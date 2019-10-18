@@ -32,7 +32,7 @@ function exibirMensagenResultadoSucesso(nome, salario, comissao) {
 function exibirMensagenResultadoErro(nome, vendas) {
     let html =  '<div class="col-sm-12 col-md-9 col-lg-9 pt-29">' +  
                 '<div class="alert alert-danger" role="alert">' +
-                '<h4>'+nome+',Você não recebera comissao.<br>Total de vendas é R$'+vendas+' e esta abaixo valor minimo permitido</h4>' +
+                '<h4>'+nome+',você não recebera comissao.<br>Total de vendas é R$'+vendas+' e esta abaixo valor minimo permitido</h4>' +
                 '</div>' +
                 '</div>';
     let mensageResultado = document.getElementById('mensageResultado');
